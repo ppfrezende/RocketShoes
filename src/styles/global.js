@@ -4,7 +4,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import background from '../assets/images/background.svg';
 
 export default createGlobalStyle`
-  @import url('https://fonts.googleapis.com/css?family=Ubuntu:400,700&display=swap');
+  @import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
   * {
     margin: 0;
     padding: 0;
@@ -34,7 +34,7 @@ export default createGlobalStyle`
       }
     }
     &, input, button {
-      font: 14px 'Ubuntu', -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font: 14px 'Roboto', sans-serif;
     }
   }
   #root{

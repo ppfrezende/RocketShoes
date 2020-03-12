@@ -23,9 +23,11 @@ module.exports = {
   },
   plugins: [
     'react',
-    'prettier'
+    'prettier',
+    'react-hooks'
   ],
   rules: {
+    "no-unused-expressions": ["error", { "allowShortCircuit": true, "allowTernary": true }],
     'jsx-a11y/label-has-associated-control': 'off',
     'react/static-property-placement': 'off',
     'react/prefer-stateless-function': 'off',
@@ -37,6 +39,9 @@ module.exports = {
     ],
     'import/prefer-default-export': 'off',
     'no-param-reassign': 'off',
-    'no-console': ["error", { allow: ["tron"] }]
+    'no-console': ["error", { allow: ["tron"] }],
+
+    'react-hooks/rules-of-hooks': 'error',
+    'react-hooks/exhaustive-deps': 'warn'
   }
 };
