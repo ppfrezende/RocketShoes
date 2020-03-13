@@ -1,4 +1,9 @@
-# ROCKETSHOES
+<h1 align="center" color="#7159c1">
+    <img alt="React Redux RocketShoes" src="https://github.com/ppfrezende/RocketShoes/blob/master/src/assets/images/logo.svg" />
+    <br>
+</h1>
+
+# RocketShoes
 
 ## :rocket: Sobre:
 
@@ -18,3 +23,22 @@ Este projeto trate-se de um E-commerce fictício desenvolvido durante o BootCamp
 * React-Icons
 * Json-Server
 * Reactotron
+
+
+## :information_source: Como usar:
+
+Para clonar e rodar o app, vc vai precisar do [Git](https://git-scm.com), [Node.js v10.16][nodejs] + [Yarn v1.13][yarn] ou a versão mais nova dos 2 instalada no seu computador. Siga os passos no seu terminal:
+
+```bash
+# Clone o repositório
+$ git clone https://github.com/ppfrezende/RocketShoes
+
+# Vá até o diretório
+$ cd RocketShoes
+
+# Instale as dependências
+$ yarn install
+
+# Run the app!!!
+$ yarn start
+```
